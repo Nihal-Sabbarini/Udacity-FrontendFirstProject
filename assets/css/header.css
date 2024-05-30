@@ -1,0 +1,20 @@
+
+#one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: header;
+    grid-gap: 4px;
+    border: none;
+    background-image: url(../images/cover2.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: cursive;
+    color: rgb(38, 46, 66);
+    font-size: 35px;
+}
+
+.h1 {
+    font-size: 30px;
+    text-align: center;
+}

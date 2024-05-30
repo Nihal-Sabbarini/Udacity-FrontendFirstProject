@@ -1,0 +1,28 @@
+
+#five, #nfive {
+    display: grid;
+    grid-area: footer;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 4px;
+    border: 1px solid black;
+    background-color: rgb(38, 46, 66);
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        list-style-type: none;
+        background-color:rgb(38, 46, 66);
+}

@@ -1,0 +1,25 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('nav.css');
+@import url('responsive.css');
+@import url('home.css');
+@import url('blog.css');
+
+
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box button:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 black;
+}
+
